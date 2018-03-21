@@ -1,0 +1,33 @@
+.container {
+  width:200px;
+  min-height: 150px;
+  border: 1px dashed gray;
+  border-radius: 4px;
+  margin: 30px auto;
+}
+h1, h3 {
+  text-align: center;  
+  margin-top: 40px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 0;
+}
+
+.buttons button {
+  display: block;
+}
+
+table {
+  margin: 10px auto;
+  border: 1px solid grey;
+  border-collapse: separate;  
+  font-size: 14px;
+}
+
+td {
+  border: 1px solid grey;
+  padding: 4px;
+}
